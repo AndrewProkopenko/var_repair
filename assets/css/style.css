@@ -3390,6 +3390,10 @@ header.sticky .electro-header {
     height: 80px; }
   .kr-adv .kr-adv_item-2::after, .kr-adv .kr-adv_item-4::after {
     display: none; }
+  .service-accordion_card-header_btn {
+    padding-right: 45px;
+    height: auto;
+    min-height: 60px; }
   .kr-master_item {
     margin: 0 auto;
     margin-top: 55px;
