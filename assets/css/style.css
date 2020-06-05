@@ -1634,7 +1634,8 @@ header.sticky .electro-header {
     padding: 30px 20px;
     padding-bottom: 40px; }
     .electro-slider_item .image {
-      border-radius: 10px; }
+      border-radius: 10px;
+      display: none; }
     .electro-slider_item .content {
       display: -webkit-box;
       display: -webkit-flex;
@@ -3778,7 +3779,6 @@ header.sticky .electro-header {
       height: 330px; }
   .tvm-brands {
     position: relative;
-    background-image: url(../images/brands.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3874,10 +3874,10 @@ header.sticky .electro-header {
     height: 445px;
     width: 275px; }
   .electro-slider_item .image {
+    display: block;
     border-radius: 10px;
     width: 490px;
     height: 370px;
-    background-image: url(../images/rev.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
