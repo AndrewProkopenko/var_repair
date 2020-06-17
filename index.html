@@ -744,16 +744,10 @@
                                 <form action="#">
                                     <div class="tvm-brands_item-form">
                                         <textarea name="text" cols="30" rows="10" placeholder="Опишите вашу проблему"></textarea>
-                                        <select name="brand" id="brands"> 
-                                            <option selected  value="none">Выберите бренд электроплиты</option>
-                                            <option value="Samsung">Samsung</option>
-                                            <option value="Lg">Lg</option>
-                                            <option value="Daewoo">Daewoo</option>
-                                            <option value="Hyundai">Hyundai</option>
-                                            <option value="Akai">Akai</option>
-                                            <option value="Funai">Funai</option> 
-                                        </select>
-                                        <input name="tel" type="tel" placeholder="Ваш телефон">
+                                        <div class="input-container">
+                                            <input class="brands-inpt" name='brands' type="text" placeholder="Введите бренд Вашей электроплиты. Например, Samsung" >
+                                            <input class="tel-inpt" name="tel" type="tel" placeholder="Ваш телефон">
+                                        </div>
                                     </div>
                                     <div class="tvm-brands_item-btn btn-green">
                                         <button type="submit">
